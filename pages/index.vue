@@ -1,7 +1,10 @@
 <template>
     <div class="h-screen w-screen gradient">
-        <div class="flex">
-            <p class="rubik">Hello, World</p>
+        <div class="flex px-5 py-5">
+            <h1 class="rubik text-2xl flex-auto"><span class="text-orange-400">My</span>Scheduler</h1>
+            
+            <button class="font-sans font-bold px-2"><a href="#">Log in</a></button>
+            <button class="font-sans font-bold px-2"><a href="#">Sign up</a></button>      
         </div>
     </div>
 </template>
@@ -17,6 +20,6 @@
         background-image: radial-gradient(at 89% 5%, rgb(254, 215, 170) 0, transparent 54%);
     }
     .rubik{
-        font-style: normal;
+        font-family: 'Rubik Glitch';
     }
 </style>
