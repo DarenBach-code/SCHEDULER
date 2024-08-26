@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen w-screen gradient">
+    <div class="h-full w-full gradient">
         <div class="flex px-5 py-5">
             <h1 class="rubik text-2xl flex-auto"><span class="text-orange-400">My</span>Scheduler</h1>
             
@@ -15,8 +15,16 @@
             </div>
             <img class="w-[25rem] h-[15rem] absolute bottom-0 left-[600px]" src="/public/morebubble.svg" alt="more chat bubbles">
         </div>
-        <div class="">
-
+        <div class="flex justify-center px-28 py-24 justify-between">
+            <div>
+                <img class="w-[19rem] h-[19rem]" src="/public/1stbtmimg.svg" alt="far left bottom image">   
+            </div>
+            <div>
+                <img class="w-[19rem] h-[19rem]" src="/public/middleimg.svg" alt="middle image"> 
+            </div>
+            <div>
+                <img class="w-[19rem] h-[19rem]" src="/public/rightimg.svg" alt="right image">
+            </div>
         </div>
     </div>
 </template>
