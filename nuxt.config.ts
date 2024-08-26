@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       "Rubik Glitch": true,
+      "Modak": true,
     }
   }
 })

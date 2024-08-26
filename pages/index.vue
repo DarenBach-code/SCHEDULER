@@ -6,9 +6,17 @@
             <button class="font-sans font-bold px-2"><a href="#">Log in</a></button>
             <button class="bg-black text-white rounded-full font-sans font-bold px-4 py-2"><a href="#">Sign up</a></button>      
         </div>
-        <div class="flex px-8 py-8">
-            <img class="w-[30rem] h-[30rem]" src="/public/schedulerpic.svg" alt="image of schedule">
-            <h1>things</h1>
+        <div class="flex px-14 py-8 relative">
+            <img class="w-[35rem] h-[35rem]" src="/public/schedulerpic.svg" alt="image of schedule">
+            <h1 class="absolute right-64 top-36 modak text-center text-[30px] w-96">Simplify your college experience!</h1>
+            <div class="absolute top-40 right-48">
+                <img class="w-[30rem] h-[19rem]" src="/public/Union.svg" alt="chat bubble">
+                <img class="w-[25rem] h-[15rem] absolute top-10 left-8" src="/public/MySchedular.svg" alt="Schedular">
+            </div>
+            <img class="w-[25rem] h-[15rem] absolute bottom-0 left-[600px]" src="/public/morebubble.svg" alt="more chat bubbles">
+        </div>
+        <div class="">
+
         </div>
     </div>
 </template>
@@ -25,5 +33,8 @@
     }
     .rubik{
         font-family: 'Rubik Glitch';
+    }
+    .modak{
+        font-family: 'Modak'
     }
 </style>
