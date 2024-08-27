@@ -7,6 +7,8 @@ export default defineNuxtConfig({
     families: {
       "Rubik Glitch": true,
       "Modak": true,
+      "Righteous": true,
+      "Faster One":true,
     }
   }
 })
