@@ -14,5 +14,8 @@ export default defineNuxtConfig({
       "Righteous": true,
       "Faster One":true,
     }
-  }
+  },
+  supabase: {
+    redirect: false
+    },
 })
