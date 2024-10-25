@@ -1,37 +1,48 @@
 <template>
-    <div class="h-full w-full gradient">
-        <div class="flex px-5 py-5">
-            <h1 class="rubik text-2xl flex-auto"><span class="text-orange-400">My</span>Scheduler</h1>
+    <div class="min-h-screen min-w-screen gradient">
+        <!--This is only for phone screens-->
+        <div class="bg-slate-900 h-3 w-full sm:hidden"></div>
+        <!--This is only for phone screens-->
+        <div>
+            <titlelink />     
+        </div>
+        <div class="flex justify-center py-3 px-3 sm:justify-start sm:justify-start">
+            <img src="/public/schedulerpic.svg" alt="schedule img" class="size-80">
+        </div>
+
+        <!--This is only for phone screens-->
+        <div class="flex-col h-72 justify-center relative sm:hidden">
+            <h1 class="modak text-center text-2xl">Simplify your college <br> experience!</h1>
+        
+            <img src="/public/MyScheduler.svg" alt="myscheduler" class="size-64 absolute top-0 right-10">
             
-            <button class="font-sans font-bold px-2"><NuxtLink to="/signup">Log in</NuxtLink></button>
-            <button class="bg-black text-white rounded-full font-sans font-bold px-4 py-2"><NuxtLink to="/signup">Sign up</NuxtLink></button>      
+            <img src="/public/morebubble.svg" alt="bubble" class="size-60 absolute top-28 left-10">
         </div>
-        <div class="flex px-14 py-8 relative">
-            <img class="w-[35rem] h-[35rem]" src="/public/schedulerpic.svg" alt="image of schedule">
-            <h1 class="absolute right-64 top-36 modak text-center text-[30px] w-96">Simplify your college experience!</h1>
-            <div class="absolute top-40 right-48">
-                <img class="w-[30rem] h-[19rem]" src="/public/Union.svg" alt="chat bubble">
-                <img class="w-[25rem] h-[15rem] absolute top-10 left-8" src="/public/MySchedular.svg" alt="Schedular">
-            </div>
-            <img class="w-[25rem] h-[15rem] absolute bottom-0 left-[600px]" src="/public/morebubble.svg" alt="more chat bubbles">
+        <!--This is only for phone screens-->
+
+        <div class="flex justify-center p-12">
+            <h1 class="righteous text-2xl text-center">We're here to help you succeed. <br> <span class="speed">Graduate fast!</span></h1>
         </div>
-        <div class="flex justify-center">
-            <h1 class="righteous text-2xl text-center">We're here to help you succeed.<br/> <span class="speed">Graduate fast!</span></h1>
-        </div>
-        <div class="flex justify-center px-28 py-24 justify-between">
+
+        <div class="grid grid-rows-2 p-8 justify-items-center gap-y-16">
             <div>
-                <img class="w-[19rem] h-[19rem]" src="/public/1stbtmimg.svg" alt="far left bottom image">
-                <h1 class="text-center righteous text-xl">No need to worry<br/> about how it can be done.</h1>   
+                <img src="/public/1stbtmimg.svg" alt="left img" class="size-60">
+                <h1 class="text-center righteous text-xl">No need to worry<br> about how it can be done.</h1>
             </div>
+            
             <div>
-                <img class="w-[19rem] h-[19rem]" src="/public/middleimg.svg" alt="middle image">
-                <h1 class="text-center righteous text-xl">Become a college graduate!</h1> 
+                <img src="/public/middleimg.svg" alt="left img" class="size-60">
+                <h1 class="righteous text-center text-xl">Become a college graduate!</h1>
             </div>
+
             <div>
-                <img class="w-[19rem] h-[19rem]" src="/public/rightimg.svg" alt="right image">
-                <h1 class="text-center righteous text-xl">Plan for success.</h1>
+                <img src="/public/rightimg.svg" alt="right img" class="size-60">
+                <h1 class="righteous text-center text-xl">Plan for success.</h1>
             </div>
         </div>
+        <!--This is only for phone screens-->
+        <div class="bg-slate-900 h-3 w-full sm:hidden"></div>
+        <!--This is only for phone screens-->
     </div>
 </template>
 
